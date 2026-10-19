@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "siteflock": {
+      "type": "http",
+      "url": "https://siteflock.app/api/mcp"
+    }
+  }
+}

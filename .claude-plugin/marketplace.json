@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "siteflock-plugins",
+  "description": "Siteflock's plugins for Claude: build, host and publish small-business websites from your Siteflock agency workspace.",
+  "owner": {
+    "name": "Siteflock",
+    "email": "support@siteflock.app",
+    "url": "https://siteflock.app"
+  },
+  "plugins": [
+    {
+      "name": "siteflock",
+      "source": "./siteflock",
+      "description": "Build, host and publish websites for local businesses through the Siteflock connector, with a skill for quick pitches, drafts, approvals and domains.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": ["website-builder", "agency", "small-business", "hosting", "web-design"]
+    }
+  ]
+}

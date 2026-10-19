@@ -1,0 +1,20 @@
+{
+  "name": "siteflock",
+  "displayName": "Siteflock",
+  "version": "0.1.0",
+  "description": "Build, host and publish websites for local businesses through the Siteflock connector: quick pitch sites from a Google Maps listing, drafts you preview and keep, publishing you approve, and custom domains.",
+  "author": {
+    "name": "Siteflock",
+    "email": "support@siteflock.app",
+    "url": "https://siteflock.app"
+  },
+  "homepage": "https://siteflock.app/connect",
+  "repository": "https://github.com/Northy9/siteflock-plugin",
+  "license": "MIT",
+  "keywords": ["website builder", "agency", "small business", "local business", "web design", "hosting", "pitch"],
+  "icon": "./icon.png",
+  "documentationUrl": "https://siteflock.app/connect",
+  "supportUrl": "https://siteflock.app/contact",
+  "privacyPolicyUrl": "https://siteflock.app/privacy-policy",
+  "termsOfServiceUrl": "https://siteflock.app/terms-of-service"
+}
