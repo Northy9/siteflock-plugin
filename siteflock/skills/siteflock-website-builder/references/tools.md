@@ -1,6 +1,6 @@
 # Siteflock connector tools
 
-The connector at `https://siteflock.app/api/mcp` has 36 tools. The level is the
+The connector at `https://siteflock.app/api/mcp` has 37 tools. The level is the
 lowest permission level a connection needs (read < build < approve). "Owners"
 means workspace owners only. Tools marked **approve link** never act: they
 return a link the person opens on siteflock.app to approve or decline.
@@ -57,6 +57,7 @@ return a link the person opens on siteflock.app to approve or decline.
 | Tool | Level | What it does |
 | --- | --- | --- |
 | `request_publish` | approve | **Approve link** to publish the current draft (checks readiness first). |
+| `request_take_offline` | approve (owners) | **Approve link** to take a published website offline; keeps its draft, history and domains, and publishing again brings it back. |
 | `move_to_trash` | approve | **Approve link** to move up to 50 websites to Trash. |
 | `get_approval_status` | read | Whether a request is pending, approved, done, failed, declined, cancelled or expired. |
 | `cancel_approval` | approve | Withdraws an undecided request. |
